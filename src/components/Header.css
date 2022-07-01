@@ -1,0 +1,29 @@
+.header{
+    width: 90%;
+    height: 116px;
+    margin-top: 17px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.airsoc_iitr{
+    height: 61px;
+    width: 143px;
+    margin-left: 11px;
+}
+
+.airsoc_logo1{
+    width: 108px;
+    height: 98px;
+}
+
+.iitr_logo{
+    width: 116px;
+    margin-left: 70%;  
+    height: 116px;
+}
+
+
+@media(max-width: 768px){
+    
+}
