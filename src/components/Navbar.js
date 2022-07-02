@@ -26,6 +26,9 @@ function Navbar() {
                             <Link smooth={true} duration={100} to="milestones" offset={-110} className="nav-link" href="#">Milestones</Link>
                         </li>
                         <li className="nav-item">
+                            <Link smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#">Gallery</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link smooth={true} duration={100} to="contact" offset={-110} className="nav-link" href="#">Contact</Link>
                         </li>
                     </ul>

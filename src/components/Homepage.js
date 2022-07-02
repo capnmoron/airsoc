@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Team from './Team'
 import Projects from './Projects'
 import Milestones from './Milestones'
+import Gallery from './Gallery'
 
 function Homepage() {
     return (
@@ -12,6 +13,7 @@ function Homepage() {
             <Team />
             <Projects />
             <Milestones />
+            <Gallery />
             <Contact />
         </>
     )

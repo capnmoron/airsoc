@@ -7,6 +7,7 @@ import TeamPage from './components/TeamPage';
 import Navbar from './components/Navbar';
 import ProjectsPage from './components/ProjectsPage'
 import MilestonesPage from './components/MilestonesPage';
+import GalleryPage from './components/GalleryPage'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route exact path='/teampage' element={<TeamPage/>}/>
         <Route exact path='/projectspage' element={<ProjectsPage/>}/>
         <Route exact path='/milestonespage' element={<MilestonesPage/>}/>
+        <Route exact path='/gallerypage' element={<GalleryPage/>}/>
       </Routes>
     </div>
     </>
