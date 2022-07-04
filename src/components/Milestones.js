@@ -5,31 +5,24 @@ import { Link } from "react-router-dom";
 
 function Milestones() {
     return (
-        <div id='milestones'>
-            <h1>Milestones</h1>
-            <div>
-                <div>
-                    <h1>2<sup>nd</sup></h1>
-                    <h2>Name</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <div id='milestones' className='milestones'>
+            <div className="milestonesHeader">Milestones</div>
+            <div className='milestoneList'>
+                <div className='milestone'>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </div>
-                <div>
-                    <h1>5<sup>th</sup></h1>
-                    <h2>Name</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <div className='milestone'>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </div>
-                <div>
-                    <h1>13<sup>th</sup></h1>
-                    <h2>Name</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                <div className='milestone'>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 </div>
             </div>
             <Link to="/milestonespage">
-                <button>See more</button>
+                <button className='milestonesButton'>See more</button>
             </Link>
-            <hr/>
         </div>
-    )
+    ) 
 }
 
 export default Milestones

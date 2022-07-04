@@ -6,21 +6,20 @@ import { Link } from "react-router-dom";
 function Team() {
     return (
         <div className='team'>
-            <h1>Team</h1>
-            <div className='team_list'>
-                <div className="faculty1">
-                    <img src={Faculty1} alt='' />
-                    <h2>Faculty 1</h2>
+            <div className="teamHeader">Team</div>
+            <div className='teamList'>
+                <div className='faculty'>
+                    <img src={Faculty1} alt='' className="facultyImage" />
+                    <div className="facultyName">Faculty 1</div>
                 </div>
-                <div className="faculty2">
-                    <img src={Faculty1} alt='' />
-                    <h2>Faculty 2</h2>
+                <div className="faculty">
+                    <img src={Faculty1} alt='' className="facultyImage" />
+                    <div className="facultyName">Faculty 2</div>
                 </div>
-                <Link to="/teampage">
-                    <button>See more</button>
-                </Link>
-                <hr/>
             </div>
+            <Link to="/teampage">
+                    <button className='teamButton'>See more</button>
+            </Link>
         </div>
     )
 }

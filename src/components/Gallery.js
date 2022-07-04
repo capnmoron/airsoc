@@ -5,17 +5,16 @@ import GalleryCarousel from './GalleryCarousel';
 
 function Gallery() {
     return (
-        <div id='gallery'>
-            <h1>Gallery</h1>
-            <div className='gallery_carousel'>
+        <div id='gallery' className='gallery'>
+            <div className="galleryHeader">Gallery</div>
+            <div className='galleryCarousel'>
                 <GalleryCarousel />
             </div>
             <Link to="/gallerypage">
-                <button>See more</button>
+                <button className='galleryButton'>See more</button>
             </Link>
-            <hr />
         </div>
-    )
+    ) 
 }
 
 export default Gallery

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.galleryHeader{
+    margin-left: 6vw;
+    margin-top: 5vw;
+    margin-right: 4vw;
+    font-family: 'Lora', serif;
+    width: 100vw;
+    padding-left: 3.5vw;
+    border-bottom-width:0.1vw;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    font-size: 2.5vw;
+}
+
+.galleryCarousel{
+    margin: 6vw;
+    margin-bottom: 2vw;
+    width: 100vw;
+    align-items: center;
+}
+
+.galleryImage{
+    width: 100vw;
+    height: 50vw;
+}
+
+.galleryButton{
+    margin-left: 6vw;
+    font-size: 1vw;
+}

@@ -1,25 +1,50 @@
-.about{
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.about h1{
-
+.aboutHeader{
+    margin-left: 6vw;
+    margin-top: 5vw;
+    margin-right: 4vw;
+    font-family: 'Lora', serif;
+    width: 100vw;
+    padding-left: 3.5vw;
+    border-bottom-width:0.1vw;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    font-size: 2.5vw;
 }
 
 .upper_part{
-
+    display: flex;
+    flex-direction: row;
+    margin-left: 6vw;
+    margin-top: 2vw;
+    margin-right: 4vw;
+    width: 100vw;
+    height: fit-content;
+    font-size: 1vw;
 }
 
 .upper_part p{
-
+    width: 70vw
 }
 
-.upper_part img{
-
+.aboutImage{
+    width: 10vw;
+    height: 10vw;
 }
 
 .lower_part{
-
+    margin-top: 2vw;
+    margin-left: 6vw;
+    margin-right: 4vw;
+    width: 70vw;
+    font-size: 1vw;
 }
 
 @media(max-width: 768px){

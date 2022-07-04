@@ -1,19 +1,44 @@
-.contact{
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.contact h1{
-
+.contactsHeader{
+    margin-left: 6vw;
+    margin-top: 5vw;
+    margin-right: 4vw;
+    font-family: 'Lora', serif;
+    width: 100vw;
+    padding-left: 3.5vw;
+    border-bottom-width:0.1vw;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    font-size: 2.5vw;
 }
 
-.contact p{
-
+.contactsContent{
+    margin-top: 2vw;
+    margin-left: 6vw;
+    margin-right: 4vw;
+    margin-bottom: 3vw;
+    width: 100vw;
+    font-size: 1vw;
 }
 
-.contact_icons{
-
+.contactsImages{
+    display: flex;
+    flex-direction: row;
+    margin: 6vw;
+    margin-bottom: 2vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.contact_icons a{
-    
+.contactsImage{
+    width: 20vw;
+    height: 17vw;
 }

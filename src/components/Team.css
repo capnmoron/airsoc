@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+.team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teamHeader{
+    margin-left: 6vw;
+    margin-top: 5vw;
+    margin-right: 4vw;
+    font-family: 'Lora', serif;
+    width: 100vw;
+    padding-left: 3.5vw;
+    border-bottom-width:0.1vw;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    font-size: 2.5vw;
+
+}
+
+.teamList{
+    display: flex;
+    flex-direction: row;
+    margin: 6vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faculty{
+    position: relative;
+    text-align: center;
+}
+
+.facultyImage{
+    width: 20vw;
+    height: 17vw;
+}
+
+.facultyName{
+    width: fit-content;
+    position: absolute;
+    bottom: 0.5vw;
+    left: 1vw;
+    color: white;
+    font-weight: bolder;
+    font-size: 1vw;
+}
+
+.teamButton{
+    margin-left: 6vw;
+    font-size: 1vw;
+} 

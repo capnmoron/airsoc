@@ -7,18 +7,19 @@ import {BsLinkedin} from "react-icons/bs"
 
 function Contact() {
   return (
-    <div id='contact' className='contact'>
-        <h1>Contact</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </p>
-        <div className='contact_icons'>
-            <a href='mailto:airsociitr@gmail.com'><MdEmail/></a>
-            <a href='https://www.linkedin.com/company/airsoc-iit-roorkee/'><BsLinkedin/></a>
-            <a href='https://instagram.com/airsoc_iitr?igshid=YmMyMTA2M2Y='><AiFillInstagram/></a>
-            <a href='https://www.facebook.com/airsociitr/'><FaFacebookSquare/></a>
+    <div id='contact' className='contacts'>
+        <div className="contactsHeader">Contact</div>
+        <div className="contactsContent">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum culpa voluptates quaerat enim fugiat, nihil laborum modi ea dolores nostrum! Repellendus totam ex veritatis nisi! Totam distinctio accusamus illo?
+        </div>
+        <div className='contactIcons'>
+            <a href='mailto:airsociitr@gmail.com' className='contactsIcon'><MdEmail/></a>
+            <a href='https://www.linkedin.com/company/airsoc-iit-roorkee/' className='contactsIcon'><BsLinkedin/></a>
+            <a href='https://instagram.com/airsoc_iitr?igshid=YmMyMTA2M2Y=' className='contactsIcon'><AiFillInstagram/></a>
+            <a href='https://www.facebook.com/airsociitr/' className='contactsIcon'><FaFacebookSquare/></a>
         </div>
     </div>
   )
 }
 
-export default Contact
+export default Contact 
