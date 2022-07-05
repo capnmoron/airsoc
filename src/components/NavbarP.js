@@ -1,6 +1,6 @@
 import React from "react";
 import './NavbarP.css'
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // REACT FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -15,22 +15,22 @@ function NavbarP() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="/" offset={-110} className="nav-link" href="#">About Us</Link>
+                            <NavLink smooth={true} duration={100} to="/" className="nav-link" offset={-110} href="#">About Us</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="/teampage" offset={-110} className="nav-link" href="#">Team</Link>
+                            <NavLink smooth={true} duration={100} to="/teampage" offset={-110} className="nav-link" href="#">Team</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="/projectspage" offset={-110} className="nav-link" href="#">Projects</Link>
+                            <NavLink smooth={true} duration={100} to="/projectspage" offset={-110} className="nav-link" href="#">Projects</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="/milestonespage" offset={-110} className="nav-link" href="#">Milestones</Link>
+                            <NavLink smooth={true} duration={100} to="/milestonespage" offset={-110} className="nav-link" href="#">Milestones</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="/gallerypage" offset={-110} className="nav-link" href="#">Gallery</Link>
+                            <NavLink smooth={true} duration={100} to="/gallerypage" offset={-110} className="nav-link" href="#">Gallery</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="/contactpage" offset={-110} className="nav-link" href="#">Contact</Link>
+                            <NavLink smooth={true} duration={100} to="/contactpage" offset={-110} className="nav-link" href="#">Contact</NavLink>
                         </li>
                     </ul>
                 </div>
