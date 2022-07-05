@@ -1,12 +1,13 @@
 import React from "react";
+import './NavbarH.css'
 import {Link} from "react-scroll";
 // REACT FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-function Navbar() {
+function NavbarH() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
             <div className="container">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <FontAwesomeIcon icon={faBars} style={{color: "#fff"}}/>
@@ -38,4 +39,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default NavbarH

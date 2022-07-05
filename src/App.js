@@ -4,16 +4,15 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header'
 import Homepage from './components/Homepage';
 import TeamPage from './components/TeamPage';
-import Navbar from './components/Navbar';
 import ProjectsPage from './components/ProjectsPage'
 import MilestonesPage from './components/MilestonesPage';
 import GalleryPage from './components/GalleryPage'
+import ContactPage from './components/ContactPage';
 
 export default function App() {
   return (
     <>
       <Header/>
-      <Navbar/>
       <div className='app_css'>
       <Routes>
         <Route exact path='/' element={<Homepage />} />
@@ -21,6 +20,7 @@ export default function App() {
         <Route exact path='/projectspage' element={<ProjectsPage/>}/>
         <Route exact path='/milestonespage' element={<MilestonesPage/>}/>
         <Route exact path='/gallerypage' element={<GalleryPage/>}/>
+        <Route exact path='/contactpage' element={<ContactPage/>}/>
       </Routes>
     </div>
     </>

@@ -1,8 +1,12 @@
 import React from 'react'
+import NavbarP from './NavbarP'
 
 function TeamPage() {
   return (
-    <div>TeamPage</div>
+    <div>
+    <NavbarP/>
+    TeamPage
+    </div>
   )
 }
 

@@ -6,8 +6,9 @@ nav{
 
 #navbar{
     width: 90% !important;
-    margin: 20px auto 40px auto; 
 }  
+
+
 
   /**************************************Nav links***********************/
    
@@ -23,7 +24,7 @@ nav{
   .navbar-nav > li > a {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    color: #fff !important;
+    color: black !important;
     border-top: 0.1875rem solid rgba(255,255,255,0);
   }
   

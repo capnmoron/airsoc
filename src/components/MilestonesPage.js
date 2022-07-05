@@ -1,8 +1,12 @@
 import React from 'react'
+import NavbarP from './NavbarP'
 
 function MilestonesPage() {
   return (
-    <div>MilestonesPage</div>
+    <div>
+    <NavbarP />
+    MilestonesPage
+    </div>
   )
 }
 

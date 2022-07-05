@@ -1,8 +1,13 @@
 import React from 'react'
+import NavbarP from './NavbarP'
+
 
 function ProjectsPage() {
   return (
-    <div>ProjectsPage</div>
+    <div>
+    <NavbarP />
+    ProjectsPage
+    </div>
   )
 }
 
