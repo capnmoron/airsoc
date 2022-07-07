@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Contact.css"
-import {FaFacebookSquare} from "react-icons/fa"
+import {IoLogoFacebook} from "react-icons/io"
 import {MdEmail} from "react-icons/md"
 import {AiFillInstagram} from "react-icons/ai"
-import {BsLinkedin} from "react-icons/bs"
+import {IoLogoLinkedin} from "react-icons/io"
 
 function Contact() {
   return (
@@ -14,9 +14,9 @@ function Contact() {
         </div>
         <div className='contactIcons'>
           <div className="contactIcon"><a href='mailto:airsociitr@gmail.com'><MdEmail className='icon'/></a></div>
-          <div className="contactIcon"><a href='https://www.linkedin.com/company/airsoc-iit-roorkee/'><BsLinkedin className='icon'/></a></div>
+          <div className="contactIcon"><a href='https://www.linkedin.com/company/airsoc-iit-roorkee/'><IoLogoLinkedin className='icon'/></a></div>
           <div className="contactIcon"><a href='https://instagram.com/airsoc_iitr?igshid=YmMyMTA2M2Y='><AiFillInstagram className='icon'/></a></div>
-          <div className="contactIcon"><a href='https://www.facebook.com/airsociitr/'><FaFacebookSquare className='icon'/></a></div>            
+          <div className="contactIcon"><a href='https://www.facebook.com/airsociitr/'><IoLogoFacebook className='icon'/></a></div>            
         </div>
     </div>
   )
