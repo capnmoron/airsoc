@@ -13,10 +13,10 @@ function Contact() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum culpa voluptates quaerat enim fugiat, nihil laborum modi ea dolores nostrum! Repellendus totam ex veritatis nisi! Totam distinctio accusamus illo?
         </div>
         <div className='contactIcons'>
-            <a href='mailto:airsociitr@gmail.com' className='contactsIcon'><MdEmail/></a>
-            <a href='https://www.linkedin.com/company/airsoc-iit-roorkee/' className='contactsIcon'><BsLinkedin/></a>
-            <a href='https://instagram.com/airsoc_iitr?igshid=YmMyMTA2M2Y=' className='contactsIcon'><AiFillInstagram/></a>
-            <a href='https://www.facebook.com/airsociitr/' className='contactsIcon'><FaFacebookSquare/></a>
+          <div className="contactIcon"><a href='mailto:airsociitr@gmail.com'><MdEmail/></a></div>
+          <div className="contactIcon"><a href='https://www.linkedin.com/company/airsoc-iit-roorkee/'><BsLinkedin/></a></div>
+          <div className="contactIcon"><a href='https://instagram.com/airsoc_iitr?igshid=YmMyMTA2M2Y='><AiFillInstagram/></a></div>
+          <div className="contactIcon"><a href='https://www.facebook.com/airsociitr/'><FaFacebookSquare/></a></div>            
         </div>
     </div>
   )

@@ -29,11 +29,38 @@
     margin-left: 6vw;
     margin-right: 4vw;
     margin-bottom: 3vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
+    width: 100vw;
 }
 
 .milestone{
-    width: 25vw
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.rank{
+    margin-left: 6vw;
+    width: 8vw;
+    height: 8vw;
+    font-size: 4vw;
+    font-weight: bolder;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 50%;
+    border-color: #D9D9D9;
+}
+
+.name{
+    margin-top: 1.5vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.desc{
+    margin-top: 1vw;
+    font-size: 1vw;
 }
 
 .milestonesButton{

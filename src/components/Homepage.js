@@ -10,6 +10,7 @@ import NavbarH from './NavbarH'
 function Homepage() {
     return (
         <>
+        <div className="home">
             <NavbarH />
             <About />
             <Team />
@@ -17,6 +18,7 @@ function Homepage() {
             <Milestones />
             <Gallery />
             <Contact />
+        </div>
         </>
     )
 }

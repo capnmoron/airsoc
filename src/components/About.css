@@ -35,8 +35,12 @@
 }
 
 .aboutImage{
-    width: 10vw;
-    height: 10vw;
+    width: 12vw;
+    height: 12vw;
+    border-width: 4px;
+    border-style:double;
+    border-radius: 50%;
+    border-color: #D9D9D9;
 }
 
 .lower_part{

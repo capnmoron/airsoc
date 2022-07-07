@@ -28,17 +28,17 @@
     font-size: 1vw;
 }
 
-.contactsImages{
+.contactIcons{
     display: flex;
     flex-direction: row;
-    margin: 6vw;
-    margin-bottom: 2vw;
+    /* background-color: aqua; */
     width: 100vw;
+    height: 10vw;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.contactsImage{
-    width: 20vw;
-    height: 17vw;
+.contactIcon{
+    /* background-color: aquamarine; */
+    height: 10vw;
 }
