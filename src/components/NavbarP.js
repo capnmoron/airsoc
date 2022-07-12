@@ -21,7 +21,7 @@ function NavbarP() {
                             <NavLink smooth={true} duration={100} to="/teampage" offset={-110} className="nav-link" href="#">Team</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink smooth={true} duration={100} to="/projectspage" offset={-110} className="nav-link" href="#">Projects</NavLink>
+                            <NavLink smooth={true} duration={100} to="/workpage" offset={-110} className="nav-link" href="#">Work</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink smooth={true} duration={100} to="/milestonespage" offset={-110} className="nav-link" href="#">Milestones</NavLink>

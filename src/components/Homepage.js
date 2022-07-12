@@ -2,7 +2,7 @@ import React from 'react'
 import About from './About'
 import Contact from './Contact'
 import Team from './Team'
-import Projects from './Projects'
+import Work from './Work'
 import Milestones from './Milestones'
 import Gallery from './Gallery'
 import NavbarH from './NavbarH'
@@ -14,7 +14,7 @@ function Homepage() {
             <NavbarH />
             <About />
             <Team />
-            <Projects />
+            <Work />
             <Milestones />
             <Gallery />
             <Contact />

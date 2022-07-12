@@ -29,6 +29,10 @@ nav{
     color: black !important;
     border-bottom: 0.1875rem solid rgba(255,255,255,0);
   }
+
+  .nav-item .active{
+    border-bottom: 0.1875rem solid #000000;
+  }
   
   .navbar-brand{
     max-width: 17.25rem;

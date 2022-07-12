@@ -2,13 +2,13 @@ import React from 'react'
 import NavbarP from './NavbarP'
 
 
-function ProjectsPage() {
+function WorkPage() {
   return (
     <div>
     <NavbarP />
-    ProjectsPage
+    WorkPage
     </div>
   )
 }
 
-export default ProjectsPage
+export default WorkPage
