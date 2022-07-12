@@ -26,13 +26,13 @@
 }
 
 .facultyName{
-    width: fit-content;
+    /* width: fit-content;
     position: absolute;
     bottom: 0.5vw;
     left: 1vw;
     color: white;
     font-weight: bolder;
-    font-size: 1vw;
+    font-size: 1vw; */
 }
 
 .submitButton{

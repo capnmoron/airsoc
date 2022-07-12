@@ -30,15 +30,3 @@
     border-color: #D9D9D9;
     background-color: white;
 }
-
-.lower_part{
-    margin-top: 2vw;
-    margin-left: 6vw;
-    margin-right: 4vw;
-    width: 70vw;
-    font-size: 1vw;
-}
-
-@media(max-width: 768px){
-    
-}

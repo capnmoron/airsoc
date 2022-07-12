@@ -1,10 +1,9 @@
 import React from "react";
-import './Carousel.css'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import gallery1 from '../assets/gallery1.png'
 
- Carousel = () => {
+const AboutCarousel = () => {
     return (
         <Carousel
             showArrows={true}
@@ -22,4 +21,4 @@ import gallery1 from '../assets/gallery1.png'
     )
 }
 
-export default Carousel
+export default AboutCarousel
