@@ -6,20 +6,6 @@
     flex-wrap: wrap;
 }
 
-.teamHeader{
-    margin-left: 6vw;
-    margin-top: 5vw;
-    margin-right: 4vw;
-    font-family: 'Lora', serif;
-    width: 100vw;
-    padding-left: 3.5vw;
-    border-bottom-width:0.1vw;
-    border-bottom-style:solid;
-    border-bottom-color:black;
-    font-size: 2.5vw;
-
-}
-
 .teamList{
     display: flex;
     flex-direction: row;
@@ -49,7 +35,7 @@
     font-size: 1vw;
 }
 
-.teamButton{
+.submitButton{
     margin-left: 6vw;
     font-size: 1vw;
 } 

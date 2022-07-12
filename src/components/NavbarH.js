@@ -15,7 +15,7 @@ function NavbarH() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="aboutHeader" offset={-410} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About Us</Link>
+                            <Link smooth={true} duration={100} to="about" offset={-410} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About Us</Link>
                         </li>
                         <li className="nav-item">
                             <Link smooth={true} duration={100} to="team" offset={-310} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Team</Link>
@@ -24,13 +24,13 @@ function NavbarH() {
                             <Link smooth={true} duration={100} to="work" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Work</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="milestones" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Milestones</Link>
+                            <Link smooth={true} duration={100} to="milestones" className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Milestones</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="gallery" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</Link>
+                            <Link smooth={true} duration={100} to="gallery" className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} duration={100} to="contact" offset={-110} className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</Link>
+                            <Link smooth={true} duration={100} to="contact" className="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact</Link>
                         </li>
                     </ul>
                 </div>

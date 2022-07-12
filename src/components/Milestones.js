@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Milestones() {
     return (
         <div id='milestones' className='milestones'>
-            <div className="milestonesHeader">Milestones</div>
+            <div className="titleHeader">Milestones</div>
             <div className='milestoneList'>
                 <div className='milestone'>
                     <div className="rank">9<sup>th</sup></div>
@@ -25,7 +25,7 @@ function Milestones() {
                 </div>
             </div>
             <Link to="/milestonespage">
-                <button className='milestonesButton'>See more</button>
+            <div className="button"><button className='submitButton'>See more</button></div>
             </Link>
         </div>
     ) 

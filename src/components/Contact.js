@@ -8,7 +8,7 @@ import {IoLogoLinkedin} from "react-icons/io"
 function Contact() {
   return (
     <div id='contact' className='contacts'>
-        <div className="contactsHeader">Contact</div>
+        <div className="titleHeader">Contact</div>
         <div className="contactsContent">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum culpa voluptates quaerat enim fugiat, nihil laborum modi ea dolores nostrum! Repellendus totam ex veritatis nisi! Totam distinctio accusamus illo?
         </div>
