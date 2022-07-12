@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Team() {
     return (
-        <div className='team'>
+        <div id='team' className='team'>
             <div className="teamHeader">Team</div>
             <div className='teamList'>
                 <div className='faculty'>
