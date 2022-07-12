@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Team() {
     return (
         <div id='team' className='team'>
-            <div className="teamHeader">Team</div>
+            <div className="titleHeader">Team</div>
             <div className='teamList'>
                 <div className='faculty'>
                     <img src={Faculty1} alt='' className="facultyImage" />
@@ -18,7 +18,7 @@ function Team() {
                 </div>
             </div>
             <Link to="/teampage">
-                    <button className='teamButton'>See more</button>
+            <div className="button"><button className='submitButton'>See more</button></div>
             </Link>
         </div>
     )

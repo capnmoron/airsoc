@@ -2,7 +2,7 @@
 
 nav{
     z-index: 2;
-    background-color: #d9d9d9;
+    background-color: white;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
   }
@@ -47,5 +47,5 @@ nav{
   }
   
   .navbar-nav > li > a:hover{
-    border-bottom: 0.1875rem solid #000000;
+    border-bottom: 0.1875rem solid #E07785;
   }

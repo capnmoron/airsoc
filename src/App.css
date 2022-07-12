@@ -1,12 +1,40 @@
 
 body{
   background: linear-gradient(298.57deg, #605195 12.76%, #E07785 86.63%);
+  color: white;
 }
 
 .app_css{
-  background-color: white;
   width: 90%;
   margin: 20px auto 40px auto; 
   border-top-left-radius: 2vw;
   border-top-right-radius: 2vw;
+}
+
+.titleHeader{
+  margin-left: 6vw;
+  margin-top: 5vw;
+  margin-right: 4vw;
+  font-family: 'Lora', serif;
+  width: 35vw;
+  padding-left: 3.5vw;
+  border-bottom-width:0.5vw;
+  border-bottom-style:solid;
+  border-bottom-color:#6F4595;
+  font-size: 2.5vw;
+  color: white ;
+}
+
+.submitButton{
+  font-size: 1vw;
+  background-color: inherit;
+  color: white;
+  padding: 0.5vw;
+  border-radius: 1vw;
+  border-color: white;
+}
+
+.button{
+  width: 90vw;
+  margin-left: 35vw;
 }

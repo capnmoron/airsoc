@@ -6,12 +6,12 @@ import GalleryCarousel from './GalleryCarousel';
 function Gallery() {
     return (
         <div id='gallery' className='gallery'>
-            <div className="galleryHeader">Gallery</div>
+            <div className="titleHeader">Gallery</div>
             <div className='galleryCarousel'>
                 <GalleryCarousel />
             </div>
             <Link to="/gallerypage">
-                <button className='galleryButton'>See more</button>
+                <div className="button"><button className='submitButton'>See more</button></div>
             </Link>
         </div>
     ) 
