@@ -6,36 +6,35 @@
     flex-wrap: wrap;
 }
 
-.teamList{
+.subHeader{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.facultyList{
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    margin: 6vw;
-    width: 100vw;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .faculty{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.facultyName{
+    margin-top: 1vw;
     text-align: center;
+    font-size: 1.3vw;
 }
 
 .facultyImage{
     width: 20vw;
     height: 17vw;
 }
-
-.facultyName{
-    /* width: fit-content;
-    position: absolute;
-    bottom: 0.5vw;
-    left: 1vw;
-    color: white;
-    font-weight: bolder;
-    font-size: 1vw; */
-}
-
-.submitButton{
-    margin-left: 6vw;
-    font-size: 1vw;
-} 

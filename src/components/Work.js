@@ -11,17 +11,11 @@ function Work() {
     <div id='work' className='work'>
       <div className="titleHeader">Work</div>
       <div className="workContent">
-        Our team has been divided into sub-teams that works on three categories-
-
-        Aero-Design Team is the most experienced team that has performed well at many national level competitions and now
-        they have been working more advanced and innovative designs such as box-wing aircraft.
-
-        UAV/Drone Design Team has been built in 2021 and they are already successful at a few national competitions. The
-        major focus of this team is to work on latest UAV design and control systems along with applications in different industries
-        such as agriculture. They are equipped with ample technical skills like electronics, flight control systems, Computer Vision,
-        snd Artificial Intelligence.
-
-        Rocket Design Team is completely research-based as of now and they have simulated numerous Stage-I model rockets.
+        <div className="intro">Our team has been divided into sub-teams that works on three categories-</div>
+        <div className="aeroDesign">Aero-Design Team is the most experienced team that has performed well at many national level competitions and now
+        they have been working more advanced and innovative designs such as box-wing aircraft.</div>
+        <div className="UAVDrone">UAV/Drone Design Team has been built in 2021 and they are already successful at a few national competitions. The major focus of this team is to work on latest UAV design and control systems along with applications in different industries such as agriculture. They are equipped with ample technical skills like electronics, flight control systems, Computer Vision, and Artificial Intelligence.</div>        
+        <div className="rocket">Rocket Design Team is completely research-based as of now and they have simulated numerous Stage-I model rockets.</div>
       </div>
       <div className='workImages'>
         <img src={drone} alt='Drone' className='workImage' />

@@ -5,19 +5,22 @@ import gallery1 from '../assets/gallery1.png'
 
 const AboutCarousel = () => {
     return (
-        <Carousel
-            showArrows={true}
-            infiniteLoop={true}
-            showThumbs={false}
-            showStatus={false}
-            autoPlay={true}
-            interval={3000}
-        >
-                <img src={gallery1} alt="" className="galleryImage"/>
-                <img src={gallery1} alt="" className="galleryImage"/>
-                <img src={gallery1} alt="" className="galleryImage"/>
-                <img src={gallery1} alt="" className="galleryImage"/>
-        </Carousel> 
+        <div className="aboutCarousel">
+            <Carousel
+                showArrows={true}
+                infiniteLoop={true}
+                showThumbs={false}
+                showStatus={false}
+                autoPlay={true}
+                interval={3000}
+            >
+                    <img src={gallery1} alt="" className="galleryImage"/>
+                    <img src={gallery1} alt="" className="galleryImage"/>
+                    <img src={gallery1} alt="" className="galleryImage"/>
+                    <img src={gallery1} alt="" className="galleryImage"/>
+            </Carousel> 
+        </div>
+        
     )
 }
 

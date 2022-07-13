@@ -14,19 +14,23 @@
     margin-right: 4vw;
     width: 100vw;
     height: fit-content;
-    font-size: 1vw;
+    font-size: 1vw; 
 }
-
 .upper_part p{
-    width: 70vw
+    padding-top: 1vw;
 }
-
 .aboutImage{
-    width: 12vw;
-    height: 12vw;
+    margin-left: 4vw;
+    width: 8vw;
+    height: 8vw;
     border-width: 0.3vw;
     border-style:double;
     border-radius: 50%;
     border-color: #D9D9D9;
     background-color: white;
 }
+
+.aboutCarousel{
+    margin-top: 4vw;
+    width: 90vw;
+}   

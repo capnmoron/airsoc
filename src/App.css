@@ -5,8 +5,8 @@ body{
 }
 
 .app_css{
-  width: 90%;
-  margin: 20px auto 40px auto; 
+  width: 90vw;
+  margin: 4vw auto 40px auto; 
   border-top-left-radius: 2vw;
   border-top-right-radius: 2vw;
 }
@@ -36,5 +36,5 @@ body{
 
 .button{
   width: 90vw;
-  margin-left: 35vw;
+  padding-left: 35vw;
 }
