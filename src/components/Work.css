@@ -7,22 +7,47 @@
 }
 
 .workImages{
+    border: solid green;
+    background-color: white;
+    padding: 2vw;
     display: flex;
     flex-direction: row;
     margin: 6vw;
     margin-bottom: 2vw;
+    margin-top: 2vw;
     width: 100vw;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .workImage{
-    width: 20vw;
+    position: relative;
+    width: 23vw;
     height: 17vw;
-    border-width: 0.5vw;
-    border-style: double;
-    border-radius: 50%;
-    border-color: #D9D9D9;
+    border-radius: 10%;
+}
+
+.launch{
+    width: 23vw;
+    height: 17vw;
+}
+.plane{
+    width: 23vw;
+    height: 17vw;
+}
+.drone{
+    width: 23vw;
+    height: 17vw;
+}
+
+.arrow{
+    position: absolute;
+    color: black;
+    font-size: 2vw;
+    background-color: white;
+    border-radius: 10%;
+    bottom: 1vw;
+    left: 1vw;
 }
 
 .workContent{
@@ -31,6 +56,16 @@
     margin-bottom: 3vw;
     width: 100vw;
     font-size: 1vw;
+}
+
+.wc{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+}
+
+.rocket{
+    margin-bottom: 0;
 }
 
 .submitButton{
