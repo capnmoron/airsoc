@@ -3,10 +3,10 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header'
 import Homepage from './components/Homepage';
-import TeamPage from './components/Team/TeamPage';
-import WorkPage from './components/WorkPage'
-import MilestonesPage from './components/MilestonesPage';
-import GalleryPage from './components/GalleryPage'
+import TeamPage from './components/TeamPage/TeamPage';
+import WorkPage from './components/WorkPage/WorkPage'
+import MilestonesPage from './components/MilestonesPage/MilestonesPage';
+import GalleryPage from './components/GalleryPage/GalleryPage'
 import ContactPage from './components/ContactPage';
 
 export default function App() {

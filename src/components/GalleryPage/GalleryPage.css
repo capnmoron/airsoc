@@ -1,14 +1,14 @@
-.team-div{
+.pic-div{
     justify-content: center;;
     margin: 0% 5% 2% 5%;
     padding: 3%;
   }
   
-  .team-div h1{
+  .pic-div h1{
     text-align: center;
   }
   
-  .team{
+  .pic{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,20 +16,20 @@
     padding-top: 3%;
   }
   
-  .team-info{
+  .pic-info{
     margin: 5px;
     width: 220px;
     background-color: rgb(245, 243, 243);
   }
   
-  .team-info img{
+  .pic-info img{
     height: 150px;
     width: 200px;
     display: block;
     margin:10px auto 10px auto;
   }
   
-  .team-info h4,.team-info h6{
+  .pic-info h4{
     text-align: center;
+    color: black;
   }
-  

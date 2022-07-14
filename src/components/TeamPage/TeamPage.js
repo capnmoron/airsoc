@@ -31,7 +31,7 @@ function TeamPage() {
         <div className="team">
           {TeamInfo.map((team) => (
             <div className="team-info">
-              <img src={team.url} alt="" />
+              <img src={Member} alt="" />
               <h4>{team.name}</h4>
               <h6>{team.position}</h6>
             </div>
@@ -44,7 +44,7 @@ function TeamPage() {
         <div className="team">
           {AluminiInfo.map((alumini) => (
             <div className="team-info">
-              <img src={alumini.url} alt="" />
+              <img src={Member} alt="" />
               <h4>{alumini.name}</h4>
               <h6>{alumini.position}</h6>
             </div>

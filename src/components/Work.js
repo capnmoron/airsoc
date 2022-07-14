@@ -1,9 +1,10 @@
 import React from 'react'
 import './Work.css'
 import { Link } from "react-router-dom";
+import { HashLink} from 'react-router-hash-link';
 import drone from "../assets/Drone.png"
-import plane from "../assets/aero.png"
-import launch from "../assets/rocket.png"
+import aero from "../assets/aero.png"
+import rocket from "../assets/rocket.png"
 import {BsArrowRight} from "react-icons/bs"
 
 function Work() {
@@ -20,15 +21,15 @@ function Work() {
       <div className='workImages'>
         <div className="workImage">
           <img src={drone} alt='Drone' className='drone'/>
-          <BsArrowRight className='arrow'/>
+          <HashLink to="/workpage#aeropart"><BsArrowRight className='arrow'/></HashLink>
         </div>
         <div className="workImage">
-          <img src={plane} alt='Plane' className='plane'/>
-          <BsArrowRight className='arrow'/>
+          <img src={aero} alt='Aero' className='aero'/>
+          <HashLink to="/workpage#dronepart"><BsArrowRight className='arrow'/></HashLink>
         </div>
         <div className="workImage">
-          <img src={launch} alt='Launch' className='launch'/>
-          <BsArrowRight className='arrow'/>
+          <img src={rocket} alt='Rocket' className='rocket'/>
+          <HashLink to="/workpage#rocketpart"><BsArrowRight className='arrow'/></HashLink>
         </div>
       </div>
       <Link to="/workpage">
