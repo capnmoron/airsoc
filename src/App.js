@@ -3,7 +3,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header'
 import Homepage from './components/Homepage';
-import TeamPage from './components/TeamPage';
+import TeamPage from './components/Team/TeamPage';
 import WorkPage from './components/WorkPage'
 import MilestonesPage from './components/MilestonesPage';
 import GalleryPage from './components/GalleryPage'
