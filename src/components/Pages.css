@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+.page{
+    background-color: white;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    color: black;
+}
+
+.pageTitle{
+    font-size: 2.5vw;
+    font-family: 'Lora', serif;
+}

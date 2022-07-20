@@ -6,15 +6,15 @@ import GalleryPics from './GalleryPics'
 
 function GalleryPage() {
   return (
-    <div>
+    <div className='page'>
     <NavbarP />
     <div className="pic-div">
-            <h1>Gallery</h1>
+            <div className='pageTitle'>Gallery</div>
             <div className="pic">
                 {GalleryPics.map((pic) => (
                     <div className="pic-info">
                         <img src={gallery} alt=""/>
-                        <h4>{pic.name}</h4>
+                        <div className='picName'>{pic.name}</div>
                     </div>
                 ))}
             </div>
@@ -23,4 +23,4 @@ function GalleryPage() {
   )
 }
 
-export default GalleryPage
+export default GalleryPage  

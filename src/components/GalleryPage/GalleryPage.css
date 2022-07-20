@@ -3,11 +3,7 @@
     margin: 0% 5% 2% 5%;
     padding: 3%;
   }
-  
-  .pic-div h1{
-    text-align: center;
-  }
-  
+    
   .pic{
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +15,7 @@
   .pic-info{
     margin: 5px;
     width: 220px;
-    background-color: rgb(245, 243, 243);
+    background-color: white;
   }
   
   .pic-info img{
@@ -29,7 +25,9 @@
     margin:10px auto 10px auto;
   }
   
-  .pic-info h4{
+  .picName{
     text-align: center;
     color: black;
+    margin-bottom: 5px;
+    font-size: large;
   }

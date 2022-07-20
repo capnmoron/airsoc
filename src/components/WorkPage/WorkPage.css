@@ -1,3 +1,43 @@
-.work-info{
-    border: 2px solid black;
+.workDiv{
+    justify-content: center;
+    margin: 0% 5% 2% 5%;
+    padding: 3%;   
+}
+
+.subWork{
+    margin-top: 4vw;
+}
+
+.workPageSubHeader{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.workPageInfo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    padding: 2.5vw;  
+    border: 0.1vw solid #d9d9d9;
+    border-radius: 1vw;
+}
+
+.workPageContent{
+    width: 70vw;
+}
+
+.workPageName{
+    font-size: 2.2vw;
+    margin-bottom: 4vw;
+}
+
+.desc{
+    font-size: 1.2vw;
+}
+
+.workImage{
+    width: 25vw;
+    padding-left: 1vw;
 }

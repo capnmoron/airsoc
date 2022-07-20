@@ -6,19 +6,21 @@ import Milestones from '../../assets/gallery1.png'
 
 function MilestonesPage() {
   return (
-    <div>
+    <div className='page'>
     <NavbarP />
-    <div id='aeropart' className="miletones-div">
-        <h1>Miletones</h1>
+    <div className="miletonesDiv">
+        <div className='pageTitle'>Miletones</div>
         <div className="miletones">
           {MilestonesInfo.map((milestones) => (
-            <div className="miletones-info">
-              <div className='miletones-content'>
-                <h1>{milestones.name}</h1>
-                <p>Description: {milestones.description}</p>
-                <p>Performance: {milestones.performance}</p>
+            <div className="miletonesInfo">
+              <div className='miletonesContent'>
+                <div className='milestoneHeader'>{milestones.name}</div>
+                <div className="milestoneBody">
+                  <p><b>Description: </b>{milestones.description}</p>
+                  <p><b>Performance: </b>{milestones.performance}</p>
+                </div>
               </div>
-              <img src={Milestones} alt="" />
+              <div className="milestoneImage"><img src={Milestones} alt="" className='milestoneImage'/></div>
             </div>
           ))}
         </div>
@@ -27,4 +29,4 @@ function MilestonesPage() {
   )
 }
 
-export default MilestonesPage
+export default MilestonesPage 

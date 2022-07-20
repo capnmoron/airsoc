@@ -9,46 +9,48 @@ import Member from '../../assets/Member.png'
 
 function TeamPage() {
   return (
-    <div>
+    <div className='page'>
       <NavbarP />
-      <h1>Team</h1>
-      <div>
-        <div className="subHeader">Faculty Advisors</div>
-        <div className='facultyList'>
-          <div className='faculty'>
-            <img src={Faculty1} alt='' className="facultyImage" />
-            <div className="facultyName">Faculty 1</div>
-          </div>
-          <div className="faculty">
-            <img src={Faculty2} alt='' className="facultyImage" />
-            <div className="facultyName">Faculty 2</div>
+      <div className="teamDiv">
+        <div className="pageTitle">Team</div>
+        <div className='teamPagefaculty'>
+          <div className="teamPageSubHeader">Faculty Advisors</div>
+          <div className='teamPageFacultyList'>
+            <div className='teamPageFaculty'>
+              <img src={Faculty1} alt='' className="facultyImage" />
+              <div className="facultyName">Faculty 1</div>
+            </div>
+            <div className="faculty">
+              <img src={Faculty2} alt='' className="facultyImage" />
+              <div className="facultyName">Faculty 2</div>
+            </div>
           </div>
         </div>
-      </div>
-      <hr/>
-      <div className="team-div">
-        <h1>Member</h1>
-        <div className="team">
-          {TeamInfo.map((team) => (
-            <div className="team-info">
-              <img src={Member} alt="" />
-              <h4>{team.name}</h4>
-              <h6>{team.position}</h6>
-            </div>
-          ))}
+        <hr />
+        <div className="teamDiv">
+          <div className='teamPageSubHeader'>Members</div>
+          <div className="teamPageName">
+            {TeamInfo.map((team) => (
+              <div className="teamPageInfo">
+                <img src={Member} alt="" className='teamPageImage'/>
+                <div className='teamMemberName'>{team.name}</div>
+                <div className='teamMemberPosition'>{team.position}</div>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-      <hr/>
-      <div className="team-div">
-        <h1>Alumini</h1>
-        <div className="team">
-          {AluminiInfo.map((alumini) => (
-            <div className="team-info">
-              <img src={Member} alt="" />
-              <h4>{alumini.name}</h4>
-              <h6>{alumini.position}</h6>
-            </div>
-          ))}
+        <hr />
+        <div className="teamDiv">
+          <div className='teamPageSubHeader'>Alumini</div>
+          <div className="teamPageName">
+            {AluminiInfo.map((alumini) => (
+              <div className="teamPageInfo">
+                <img src={Member} alt="" className='teamPageImage'/>
+                <div className='teamMemberName'>{alumini.name}</div>
+                <div className='teamMemberPosition'>{alumini.position}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

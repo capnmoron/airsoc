@@ -1,3 +1,39 @@
-.milestones-info{
-    border: 2px solid black;
+.miletonesDiv{
+    justify-content: center;;
+    margin: 0% 5% 2% 5%;
+    padding: 3%;   
 }
+
+.miletones{
+    margin-top: 6vw;
+}
+
+.miletonesInfo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vw;
+    padding: 2.5vw;
+    border: 0.1vw solid #d9d9d9;
+    border-radius: 1vw;
+}
+
+.miletonesContent{
+    width: 70vw;
+}
+
+.milestoneImage{
+    padding-left: 1vw;
+    width: 25vw;
+}
+
+.milestoneHeader{
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+.milestoneBody{
+    font-size: 1.2vw;
+}
+

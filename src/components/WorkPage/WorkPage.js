@@ -9,52 +9,51 @@ import Banana from '../../assets/banana.png'
 
 function WorkPage() {
   return (
-    <div>
+    <div className='page'>
       <NavbarP />
-      <h1>Projects</h1>
-      <div id='aeropart' className="work-div">
-        <h1>Aero Work</h1>
-        <div className="work">
-          {AeroInfo.map((aero) => (
-            <div className="work-info">
-              <div className='work-content'>
-                <h1>{aero.name}</h1>
-                <a href={aero.link}>[Link]</a>
-                <p>{aero.description}</p>
+      <div className="workDiv">
+        <div className='pageTitle'>Projects</div>
+        <div id='aeropart' className="subWork">
+          <div className='workPageSubHeader'>Aero Work</div>
+          <div className="workPage">
+            {AeroInfo.map((aero) => (
+              <div className="workPageInfo">
+                <div className='workPageContent'>
+                  <div className='workPageName'>{aero.name} <a href={aero.link}>[Link]</a></div>
+                  <div className="desc">{aero.description}</div >
+                </div>
+                <div className="workImage"><img src={Banana} alt=""  className="workImage" /></div>
               </div>
-              <img src={Banana} alt="" />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-      <div id='dronepart' className="work-div">
-        <h1>Drone Work</h1>
-        <div className="work">
-          {DroneInfo.map((drone) => (
-            <div className="work-info">
-              <div className='work-content'>
-                <h1>{drone.name}</h1>
-                <a href={drone.link}>[Link]</a>
-                <p>{drone.description}</p>
+        <div id='dronepart' className="subWork">
+          <div className='workPageSubHeader'>Drone Work</div>
+          <div className="workPage">
+            {DroneInfo.map((drone) => (
+              <div className="workPageInfo">
+                <div className='workPageContent'>
+                  <div className='workPageName'>{drone.name} <a href={drone.link}>[Link]</a></div>
+                  <div className="desc">{drone.description}</div >
+                </div>
+                <div className="workImage"><img src={Banana} alt=""  className="workImage" /></div>
               </div>
-              <img src={Banana} alt="" />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-      <div id='rocketpart' className="work-div">
-        <h1>Rocket Work</h1>
-        <div className="work">
-          {RocketInfo.map((rocket) => (
-            <div className="work-info">
-              <div className='work-content'>
-                <h1>{rocket.name}</h1>
-                <a href={rocket.link}>[Link]</a>
-                <p>{rocket.description}</p>
+        <div id='rocketpart' className="subWork">
+          <div className='workPageSubHeader'>Rocket Work</div>
+          <div className="workPage">
+            {RocketInfo.map((rocket) => (
+              <div className="workPageInfo">
+                <div className='workPageContent'>
+                  <div className='workPageName'>{rocket.name} <a href={rocket.link}>[Link]</a></div>
+                  <div className="desc">{rocket.description}</div >
+                </div>
+                <div className="workImage"><img src={Banana} alt=""  className="workImage" /></div>
               </div>
-              <img src={Banana} alt="" />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
