@@ -45,25 +45,19 @@
     background-color: white;
     border-radius: 10%;
     bottom: 1vw;
-    left: 1vw;
+    left: 1.5vw;
 }
 
 .workContent{
     margin-left: 6vw;
     margin-right: 4vw;
-    margin-bottom: 3vw;
     width: 100vw;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 .wc{
     margin-top: 2vw;
-    margin-bottom: 2vw;
-    font-size: 1vw;
-}
-
-.rocket{
-    margin-bottom: 0;
+    font-size: 1.2vw;
 }
 
 .submitButton{

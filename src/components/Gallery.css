@@ -7,12 +7,13 @@
 .galleryCarousel{
     margin: 6vw;
     margin-bottom: 2vw;
-    width: 100vw;
+    width: 70vw;
+    margin-left: 10vw;
     align-items: center;
 }
 
 .galleryImage{
-    width: 100vw;
+    width: 70vw;
     height: 50vw;
 }
 
